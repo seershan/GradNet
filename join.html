@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Now - GradNet</title>
+    <link rel="stylesheet" href="joinstyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">GradNet</a>
+            <div class="container">
+                <ul class="nav-links">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="network.html">Network</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <a href="#" id="cta-button1" class="cta-button">Join Now</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="join-hero" class="page-hero">
+            <div class="container">
+                <h1>Join GradNet</h1>
+                <p>Become a part of our thriving alumni community</p>
+            </div>
+        </section>
+
+        <section id="join-form">
+            <div class="container">
+                <h2>Membership Application</h2>
+                <form class="membership-form">
+                    <div class="form-group">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" id="full-name" name="full-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="graduation-year">Graduation Year</label>
+                        <input type="number" id="graduation-year" name="graduation-year" min="1900" max="2099" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="degree">Degree</label>
+                        <input type="text" id="degree" name="degree" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="current-occupation">Current Occupation</label>
+                        <input type="text" id="current-occupation" name="current-occupation" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="interests">Areas of Interest</label>
+                        <textarea id="interests" name="interests" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Submit Application</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="membership-benefits">
+            <div class="container">
+                <h2>Membership Benefits</h2>
+                <ul class="benefits-list">
+                    <li><i class="fas fa-network-wired"></i> Exclusive networking opportunities</li>
+                    <li><i class="fas fa-briefcase"></i> Access to job postings and career resources</li>
+                    <li><i class="fas fa-graduation-cap"></i> Lifelong learning programs and workshops</li>
+                    <li><i class="fas fa-users"></i> Mentorship programs</li>
+                    <li><i class="fas fa-ticket-alt"></i> Discounted tickets to alumni events</li>
+                    <li><i class="fas fa-newspaper"></i> Monthly alumni newsletter</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="events.html">Upcoming Events</a></li>
+                        <li><a href="network.html">Alumni Directory</a></li>
+                        <li><a href="resources.html">Career Resources</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect With Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p>Email: seershanmitra@gmail.com</p>
+                    <p>Phone: +91-8668773914</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 GradNet. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="joinscript.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - GradNet</title>
+    <link rel="stylesheet" href="eventsstyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">GradNet</a>
+
+            <div class="container">
+                <ul class="nav-links">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="events.html" class="active">Events</a></li>
+                    <li><a href="network.html">Network</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <a href="join.html" id="cta-button1" class="cta-button">Join Now</a>
+
+        </nav>
+    </header>
+
+    <main>
+        <section id="events-hero" class="page-hero">
+            <div class="container">
+                <h1>Upcoming Events</h1>
+                <p>Connect, learn, and grow with fellow alumni</p>
+            </div>
+        </section>
+
+        <section id="events-filter">
+            <div class="container">
+                <h2>Filter Events</h2>
+                <div class="filter-options">
+                    <button class="filter-button active" data-filter="all">All Events</button>
+                    <button class="filter-button" data-filter="networking">Networking</button>
+                    <button class="filter-button" data-filter="workshop">Workshops</button>
+                    <button class="filter-button" data-filter="social">Social</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="events-list">
+            <div class="container">
+                <div class="events-grid">
+                    <div class="event-card" data-category="networking">
+                        <img src="images/college.jpg" alt="Networking Mixer" class="event-image">
+                        <div class="event-details">
+                            <h3>Alumni Networking Mixer</h3>
+                            <p class="event-date"><i class="far fa-calendar-alt"></i> June 15, 2023</p>
+                            <p class="event-location"><i class="fas fa-map-marker-alt"></i> Downtown Conference Center</p>
+                            <p class="event-description">Join us for an evening of networking with fellow alumni from various industries.</p>
+                            <a href="#" class="event-button">Register Now</a>
+                        </div>
+                    </div>
+                    <div class="event-card" data-category="workshop">
+                        <img src="images/stairs.jpg" alt="Career Workshop" class="event-image">
+                        <div class="event-details">
+                            <h3>Career Development Workshop</h3>
+                            <p class="event-date"><i class="far fa-calendar-alt"></i> July 8, 2023</p>
+                            <p class="event-location"><i class="fas fa-map-marker-alt"></i> Online Webinar</p>
+                            <p class="event-description">Enhance your professional skills with our expert-led career development workshop.</p>
+                            <a href="#" class="event-button">Register Now</a>
+                        </div>
+                    </div>
+                    <div class="event-card" data-category="social">
+                        <img src="images/summers.jpg" alt="Summer Picnic" class="event-image">
+                        <div class="event-details">
+                            <h3>Annual Summer Picnic</h3>
+                            <p class="event-date"><i class="far fa-calendar-alt"></i> August 5, 2023</p>
+                            <p class="event-location"><i class="fas fa-map-marker-alt"></i> Central Park</p>
+                            <p class="event-description">Enjoy a day of fun, food, and games with fellow alumni and their families.</p>
+                            <a href="#" class="event-button">Register Now</a>
+                        </div>
+                    </div>
+                    <div class="event-card" data-category="networking">
+                        <img src="images/buildings.jpg" alt="Industry Panel" class="event-image">
+                        <div class="event-details">
+                            <h3>Tech Industry Panel Discussion</h3>
+                            <p class="event-date"><i class="far fa-calendar-alt"></i> September 20, 2023</p>
+                            <p class="event-location"><i class="fas fa-map-marker-alt"></i> University Auditorium</p>
+                            <p class="event-description">Hear from industry leaders about the latest trends in technology and innovation.</p>
+                            <a href="#" class="event-button">Register Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="events.html">Upcoming Events</a></li>
+                        <li><a href="network.html">Alumni Directory</a></li>
+                        <li><a href="resources.html">Career Resources</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect With Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p>Email: seershanmitra@gmail.com</p>
+                    <p>Phone: +91-8668773914</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 GradNet. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="eventsscript.js"></script>
+</body>
+</html>
